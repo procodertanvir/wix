@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Eczar:wght@400;500;600;700;800&family=Oswald:wght@200;400&family=Prosto+One&family=Staatliches&display=swap');
+
+
+h1,h2,h3,h4,h5,h6{
+   font-family: 'Eczar', serif;
+   position: relative;
+}
+button{
+   font-family: sans-serif;
+}
+
+
+
+a{
+   text-decoration: none;
+}
+/* Header Section */
+.headerSection{
+   background: url(img/0784b1_eb1c49b2a1094974b2706f88f15a2052-mv2.webp) no-repeat center center;
+   background-size: cover;
+   padding: 450px 0;
+}
+
+.headerSection h1{
+   margin-top: -440px;
+}
+.headerSection h2{
+   margin-top: 200px;
+}
+.headerSection button{
+   font-size: 25px;
+   font-weight: 300;
+}
+
+
+/* Stunning Templates */
+.stunImage img {
+	width: 890px;
+	margin-top: -200px;
+	margin-left: 78px;
+}
+
+/* Drag & Drop */
+.dropImage{
+   margin: 0;
+   padding: 0;
+}
+.dropImage img {
+	width: 890px;
+	margin-top: -200px;
+   margin-right: 100px;
+}
+
+/* Idea Section */
+.ideaSection{
+   max-width: 980px;
+   margin: 0 auto;
+}
+
+/* Footer Section */
+.footerSection .footerContent{
+   max-width: 500px;
+   margin: 0 auto;
+}
+.footerContent span{
+   padding-left: 15px;
+}
+.privacy .br{
+   border-right: 1px solid #000;
+   border-radius: 0;
+   font-size: 15px;
+}
+.privacy a{
+   transition: 400ms;
+}
+.privacy a:hover{
+   color: rgb(145, 238, 241);
+}
